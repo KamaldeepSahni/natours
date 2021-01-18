@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        block head
+            meta(http-equiv="Content-Security-Policy" content="script-src-elem https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js http://localhost:5000/js/mapbox.js https://js.stripe.com/v3/ http://localhost:5000/js/login.js http://localhost:5000/js/bundle.js")
+            meta(charset="UTF-8")
+            meta(name="viewport", content="width=device-width, initial-scale=1.0")
+            link(href="https://fonts.googleapis.com/css?family=Lato:300,300i,700" rel="stylesheet")
+            link(rel="stylesheet" href="/css/style.css")
+            link(rel="shortcut icon" type="image/png" href="/img/favicon.png")
+            title Natours | #{title}
+    body
+        // HEADER
+        include _header
+
+        // CONTENT
+        block content
+            h1 This is a placeholder
+
+        // Footer
+        include _footer
+
+        //- script(src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js")
+        //- script(src="/js/mapbox.js")
+        //- script(src="/js/login.js")
+        script(src="https://js.stripe.com/v3/")
+        script(src="/js/bundle.js")
