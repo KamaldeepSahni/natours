@@ -13,6 +13,6 @@ npm install
 ### Run Server
 
 ```bash
-npm start #Run Node Server:5000
+npm run dev #Run Node Server:5000
 npm run watch:js #Start Parcel Bundler
 ```
