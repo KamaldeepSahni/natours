@@ -3,7 +3,7 @@
 Built with modern technologies: node.js, express, mongoDB with server side rendered frontend.
 
 ## Live Website
-[Natours](https://hidden-oasis-66713.herokuapp.com/)
+[Natours](https://natours-dev-457812.herokuapp.com/)
 
 ## Usage
 
